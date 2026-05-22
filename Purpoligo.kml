@@ -4,7 +4,7 @@
 	<name>Raxidi - Holistic</name>
 	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
-	<StyleMap id="msn_ylw-pushpin310">
+	<StyleMap id="msn_ylw-pushpin3101">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin010</styleUrl>
@@ -14,7 +14,7 @@
 			<styleUrl>#sh_ylw-pushpin010</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s220">
+	<Style id="s2200">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -28,7 +28,7 @@
 			<color>ff0000ff</color>
 		</LineStyle>
 	</Style>
-	<Style id="s22112">
+	<Style id="s221120">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -42,38 +42,20 @@
 			<color>ff0000ff</color>
 		</LineStyle>
 	</Style>
-	<StyleMap id="s2260">
+	<StyleMap id="s22600">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s22112</styleUrl>
+			<styleUrl>#s221120</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s220</styleUrl>
+			<styleUrl>#s2200</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s23">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff00ffaa</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="s230">
+	<StyleMap id="s2300">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s23</styleUrl>
+			<styleUrl>#s233</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -98,7 +80,25 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="s27">
+	<Style id="s233">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s2700">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -115,33 +115,33 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="s270">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ffff0000</color>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="s272">
+	<StyleMap id="s2720">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s27</styleUrl>
+			<styleUrl>#s273</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s270</styleUrl>
+			<styleUrl>#s2700</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s273">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin010">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -181,7 +181,7 @@
 		<Placemark>
 			<name>Habitainer</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -200,7 +200,7 @@
 		<Placemark>
 			<name>DG Lake to Staff Quarters</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<coordinates>
@@ -217,7 +217,7 @@
 		<Placemark>
 			<name>Kooginakolu to Paddy Field Lake</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<coordinates>
@@ -234,7 +234,7 @@
 		<Placemark>
 			<name>DG Lake to Bungalow</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<coordinates>
@@ -266,7 +266,7 @@
 		<Placemark>
 			<name>Kadri</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<MultiGeometry>
 					<LineString>
@@ -443,7 +443,7 @@
 		<Placemark>
 			<name>Buildable</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<MultiGeometry>
 					<LineString>
@@ -692,7 +692,7 @@
 		<Placemark>
 			<name>Seethali</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -807,7 +807,7 @@
 		<Placemark>
 			<name>Untitled Path</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -838,7 +838,7 @@
 		<Placemark>
 			<name>New Falls</name>
 			<snippet></snippet>
-			<styleUrl>#s2260</styleUrl>
+			<styleUrl>#s22600</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -859,7 +859,7 @@
 		<name>Raxidi Infra</name>
 		<Placemark>
 			<name>DG Fence</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<LinearRing>
 				<coordinates>
 					75.714787443324,12.951732615201,0 75.71486866517699,12.951752887095,0 75.71494485393001,12.951759596177,0 75.715021673367,12.951772582071,0 75.715120044202,12.951798441005,0 75.715251023409,12.951812957128,0 75.715361443752,12.951827072992,0 75.715452293878,12.951847192411,0 75.715623211506,12.951888718743,0 75.715736706558,12.951922395973,0 75.715804001588,12.951935677824,0 75.715833182677,12.951934757944,0 75.715877544275,12.951865893153,0 75.715879917678,12.951847622173,0 75.715850828711,12.95184765522,0 75.715815063714,12.951904133927,0 75.715805240965,12.951908437103,0 75.715736178867,12.951892056154,0 75.715633261072,12.951862931015,0 75.715571627112,12.951846810033,0 75.715457946521,12.951819555739,0 75.715359830106,12.95179534739,0 75.715253766869,12.95178627556,0 75.715136348931,12.951768617319,0 75.71502900874999,12.951744681061,0 75.714950058551,12.951730907336,0 75.714879093243,12.951725985631,0 75.714805530462,12.951716216114,0 75.714719930445,12.951692877948,0 75.714640643932,12.951672352176,0 75.714649362949,12.951706699831,0 75.714787443324,12.951732615201,0 
@@ -868,7 +868,7 @@
 		</Placemark>
 		<Placemark>
 			<name>School</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<LinearRing>
 				<coordinates>
 					75.715038656101,12.949213826735,928.6686650393531 75.714994557255,12.949290140279,928.1590219596401 75.714913368898,12.949245304185,928.506664015353 75.71495698395699,12.94916973619,928.7544526327399 75.715038656101,12.949213826735,928.6686650393531 
@@ -878,7 +878,7 @@
 		<Placemark>
 			<name>Bungalow</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<LinearRing>
 					<coordinates>
@@ -932,7 +932,7 @@
 		<Placemark>
 			<name>Pulper Room</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<MultiGeometry>
 					<LinearRing>
@@ -963,7 +963,7 @@
 		<Placemark>
 			<name>Sedimentation Tanks</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<LinearRing>
 					<coordinates>
@@ -980,7 +980,7 @@
 		<Placemark>
 			<name>Raxidi Line</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<MultiGeometry>
 					<LinearRing>
@@ -1003,7 +1003,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Staff Quarters</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<LinearRing>
 				<coordinates>
 					75.71729483200799,12.953737907649,920.7181392069911 75.717168160254,12.953795683584,920.518401948735 75.717126527594,12.953709088349,920.5234180707489 75.717253728665,12.953651830887,919.606721627526 75.71729483200799,12.953737907649,920.7181392069911 
@@ -1013,7 +1013,7 @@
 		<Placemark>
 			<name>Assam Line Labour Quarters</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<LinearRing>
 					<coordinates>
@@ -1039,7 +1039,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Drying Yard</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<LinearRing>
 					<coordinates>
@@ -1050,7 +1050,7 @@
 		</Placemark>
 		<Placemark>
 			<name>PumpHouse PF Lake</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<LinearRing>
 					<coordinates>
@@ -1077,7 +1077,7 @@
 		<Placemark>
 			<name>Habitainer</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1114,7 +1114,7 @@
 		<Placemark>
 			<name>Block Work</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -1152,7 +1152,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Seethali Labour Quarters</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1167,7 +1167,7 @@
 		<Placemark>
 			<name>Staff Quarters</name>
 			<snippet></snippet>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<MultiGeometry>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -1193,7 +1193,7 @@
 		</Placemark>
 		<Placemark>
 			<name>DG Godown</name>
-			<styleUrl>#s230</styleUrl>
+			<styleUrl>#s2300</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1210,7 +1210,7 @@
 		<name>Raxidi Blocks</name>
 		<Placemark>
 			<name>Part of the estate</name>
-			<styleUrl>#msn_ylw-pushpin310</styleUrl>
+			<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1224,7 +1224,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Upcoming Cardamom Block</name>
-			<styleUrl>#msn_ylw-pushpin310</styleUrl>
+			<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1238,10 +1238,11 @@
 		</Placemark>
 		<Folder>
 			<name>Division-A</name>
+			<open>1</open>
 			<Placemark>
 				<name>Falls Blocks [1:Polygon]</name>
 				<snippet></snippet>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1256,7 +1257,7 @@
 			<Placemark>
 				<name>Falls Blocks [2:Polygon]</name>
 				<snippet></snippet>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1271,7 +1272,7 @@
 			<Placemark>
 				<name>Falls Blocks [3:Polygon]</name>
 				<snippet></snippet>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1285,7 +1286,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Deenapatte</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1302,7 +1303,7 @@
 			<name>Division-B</name>
 			<Placemark>
 				<name>Minkabail</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1325,7 +1326,7 @@
 					<range>1719.648732891037</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1340,7 +1341,7 @@
 			<Placemark>
 				<name>Robusta Mix</name>
 				<open>1</open>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1354,7 +1355,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Areca</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1368,7 +1369,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Fathima</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1385,7 +1386,7 @@
 			<name>Division-C</name>
 			<Placemark>
 				<name>Paddy Field Lake</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1408,7 +1409,7 @@
 					<range>1092.006520177272</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1431,7 +1432,7 @@
 					<range>1092.006520177272</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1445,7 +1446,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Orange Block</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1459,7 +1460,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Metalgandi</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1474,9 +1475,10 @@
 		</Folder>
 		<Folder>
 			<name>Division-D</name>
+			<open>1</open>
 			<Placemark>
 				<name>Anekarpu</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1490,7 +1492,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Kadupatte</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1505,7 +1507,7 @@
 			<Placemark>
 				<name>Kadupatte-Cardamom</name>
 				<open>1</open>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1519,7 +1521,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Gate Patte</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1533,7 +1535,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Tank Patte</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1547,7 +1549,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Lobo</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1561,7 +1563,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Kadri</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1575,7 +1577,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Collar Pruned</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1598,7 +1600,7 @@
 					<range>1017.822340739442</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1612,7 +1614,7 @@
 			</Placemark>
 			<Placemark>
 				<name>New Kadri Interline</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1626,7 +1628,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Kadi New Kaveri</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1640,7 +1642,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Kadri Kaveri</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1654,7 +1656,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Untitled Polygon</name>
-				<styleUrl>#msn_ylw-pushpin310</styleUrl>
+				<styleUrl>#msn_ylw-pushpin3101</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1674,7 +1676,7 @@
 			<name>Seegaebeelu</name>
 			<Placemark>
 				<name>WELL [1:LinearRing]</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<LinearRing>
 					<coordinates>
 						75.721348408861,12.951752272984,0 75.72141882499901,12.951795575672,0 75.721441237584,12.951805884751,0 75.721434771543,12.951821765919,0 75.721440626999,12.951870685312,0 75.721439803691,12.951913309681,0 75.721409410335,12.951996747331,0 75.721386219368,12.95203876993,0 75.72136092732001,12.952080040547,0 75.721313811914,12.952150422018,0 75.721295831988,12.952176117878,0 75.721257227208,12.952212883058,0 75.721219777328,12.952234083138,0 75.721177012223,12.952250457036,0 75.721133646827,12.952267852223,0 75.721058981326,12.952305443752,0 75.721027917708,12.952321856905,0 75.72099347074,12.952339369617,0 75.720941458597,12.952346571504,0 75.720900406816,12.952347412434,0 75.720866401592,12.952343637054,0 75.72081287384199,12.952334079853,0 75.720778102305,12.952329497895,0 75.720682711045,12.952310989568,0 75.72059308284101,12.95229507003,0 75.720543182871,12.952286119878,0 75.72047869438499,12.952230751175,0 75.72044947477499,12.952211124047,0 75.720429730059,12.952191990729,0 75.720394487333,12.952183205611,0 75.720364746367,12.952175424943,0 75.720319253684,12.952164187784,0 75.720291223431,12.952153282429,0 75.720255373363,12.952121776727,0 75.720240067212,12.952110029891,0 75.7202288319,12.952098442981,0 75.720194354901,12.952083910736,0 75.720175268723,12.952066414178,0 75.72014250435601,12.952041613041,0 75.72012746626,12.952026066503,0 75.720117779791,12.952014787675,0 75.72010481440201,12.952000504055,0 75.72009572555601,12.951982770914,0 75.72008104221599,12.951967987179,0 75.720069580258,12.951956375545,0 75.72004225270901,12.951929407024,0 75.72002255423401,12.951912739242,0 75.719997382063,12.951890794894,0 75.719971150201,12.951868365765,0 75.719948667239,12.951847812585,0 75.719925496453,12.951826190868,0 75.71988196632699,12.951795325174,0 75.719827474813,12.951752027293,0 75.719765359796,12.951665166965,0 75.71978461201201,12.95162021296,0 75.719804622201,12.951572630304,0 75.719896772818,12.951441567742,0 75.71997438764799,12.95134241562,0 75.72008254238099,12.951200861765,0 75.72013209392099,12.951125398573,0 75.720187614172,12.951082148985,0 75.720241515965,12.951051283042,0 75.720312734823,12.951103862179,0 75.720480951982,12.951229810197,0 75.720535937704,12.951272677049,0 75.7206460256,12.951349107646,0 75.720713838284,12.951387291239,0 75.720743534414,12.951402924374,0 75.720823027733,12.951435889543,0 75.72087318010099,12.95145702435,0 75.72091946047701,12.951484579287,0 75.720961970925,12.951511147974,0 75.72103609277001,12.951553348203,0 75.72108514631,12.951580157431,0 75.721178901317,12.951639114078,0 75.721250733895,12.951688000216,0 75.721348408861,12.951752272984,0 
@@ -1684,7 +1686,7 @@
 			<Placemark>
 				<name>FENCE</name>
 				<snippet></snippet>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LineString>
 						<coordinates>
@@ -1700,7 +1702,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Wetted Perimeter</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1714,7 +1716,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Excavated Area</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1728,7 +1730,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Circuit Road</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1746,7 +1748,7 @@
 			<Placemark>
 				<name>Berms</name>
 				<snippet></snippet>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LinearRing>
 						<coordinates>
@@ -1768,7 +1770,7 @@
 			<Placemark>
 				<name>tank bund</name>
 				<snippet></snippet>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LineString>
 						<coordinates>
@@ -1791,7 +1793,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Wetted Perimeter</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LinearRing>
 						<coordinates>
@@ -1867,7 +1869,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Excavated Area</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1881,7 +1883,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Embankment Top</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1895,7 +1897,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Embankment-Slope</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1909,7 +1911,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Toe Drain</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1927,7 +1929,7 @@
 			<Placemark>
 				<name>PF LAke Boundary</name>
 				<snippet></snippet>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<LinearRing>
 					<coordinates>
 						75.717931559531,12.956032667228,0 75.717977587833,12.956054139013,0 75.71805376494601,12.956076486137,0 75.718079765632,12.95608177033,0 75.718117188832,12.95609408224,0 75.718149406919,12.956105212832,0 75.71830396016399,12.956162113587,0 75.71838197091201,12.956195233605,0 75.718477796499,12.956243729387,0 75.71852141076801,12.956266793152,0 75.718538020417,12.956271231874,0 75.71859767270099,12.956274291651,0 75.718677697586,12.956316745186,0 75.71862159775699,12.956426833989,0 75.718570671444,12.956477396302,0 75.718526822413,12.956539761528,0 75.718486712005,12.956592981667,0 75.718412757278,12.956697447892,0 75.71839286866999,12.956729755583,0 75.71832990823999,12.956783843043,0 75.71828918427001,12.956811316009,0 75.71823615206399,12.956860110832,0 75.718222363498,12.956890073786,0 75.718216735081,12.956917534564,0 75.718217089427,12.956936811031,0 75.71822311982601,12.956967378091,0 75.71822954844301,12.956982580478,0 75.7182455356,12.957008254286,0 75.718279114087,12.957076744701,0 75.718288111473,12.957116941659,0 75.718293201062,12.957146904279,0 75.718296987247,12.957216218702,0 75.71828957528101,12.957254693122,0 75.718280411141,12.957278293801,0 75.718243377497,12.957352933429,0 75.718192656632,12.95744910893,0 75.71814115829901,12.95753889279,0 75.718130341991,12.95757646568,0 75.718119324057,12.95759863637,0 75.71808320103401,12.957653485675,0 75.718067478124,12.957688570265,0 75.718055208466,12.957742507773,0 75.718053188836,12.957791278408,0 75.71805682756801,12.957856334829,0 75.718073492258,12.958002875824,0 75.718094639516,12.958075762774,0 75.718098038748,12.958102679209,0 75.71807748300201,12.958156898603,0 75.71807529464,12.958198950624,0 75.71813251088,12.958267607157,0 75.718177699861,12.958322122239,0 75.718207906708,12.95836588973,0 75.718274285826,12.95849558828,0 75.718234817311,12.958516565312,0 75.71817227221899,12.958555116586,0 75.718102770453,12.958594866534,0 75.71806758659901,12.958591912812,0 75.718025378273,12.958571102081,0 75.717992245236,12.958563375113,0 75.717956955677,12.958551170287,0 75.717923046473,12.958529209613,0 75.717913655986,12.958514621516,0 75.717904702693,12.958492422211,0 75.71789048578999,12.958454786914,0 75.717878544257,12.958439206016,0 75.717852087902,12.958423167434,0 75.717839820957,12.958412699354,0 75.717832879601,12.958398921228,0 75.717823015077,12.958362867802,0 75.717804701002,12.958345670046,0 75.717782733069,12.95833205442,0 75.717732775372,12.958310887198,0 75.717704865898,12.95829951726,0 75.717689218624,12.958287614744,0 75.717656667612,12.958290495813,0 75.717625413771,12.958281545874,0 75.717611371581,12.958271437918,0 75.71758261914501,12.958243096084,0 75.717562433501,12.958228099842,0 75.717546651752,12.958205880531,0 75.717518920212,12.958193068592,0 75.717485974749,12.958185652915,0 75.71743886454,12.958183050369,0 75.717383660339,12.95812529412,0 75.717410405669,12.958053074319,0 75.717483204326,12.95786562858,0 75.717503290864,12.957814471762,0 75.717507278509,12.957789971868,0 75.717494405623,12.95773139206,0 75.71746579403801,12.957598960231,0 75.717472956555,12.957559407681,0 75.717495757731,12.957501568357,0 75.71753447159701,12.95740148324,0 75.717574604348,12.957340348889,0 75.717596454833,12.957274256351,0 75.717596407649,12.957235813745,0 75.71759718161501,12.957156264022,0 75.717614226102,12.957006508505,0 75.717629052646,12.956940110751,0 75.717636862677,12.956840636184,0 75.717625424978,12.95678471775,0 75.717625761449,12.956655303624,0 75.717635824091,12.956597344003,0 75.717647316086,12.956466001913,0 75.717660024164,12.956365549231,0 75.71766507016299,12.956250377552,0 75.717684807441,12.956216102638,0 75.717755746352,12.956057487184,0 75.717804660299,12.955940181475,0 75.717931559531,12.956032667228,0 
@@ -1936,7 +1938,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Nala</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LineString>
 						<coordinates>
@@ -1972,7 +1974,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Paddy Field Lake</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -1987,7 +1989,7 @@
 			<Placemark>
 				<name>Berms 2</name>
 				<snippet></snippet>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LinearRing>
 						<coordinates>
@@ -2013,7 +2015,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Pond boundary</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LinearRing>
 						<coordinates>
@@ -2030,7 +2032,7 @@
 			<Placemark>
 				<name>Berms</name>
 				<snippet></snippet>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LinearRing>
 						<coordinates>
@@ -2061,7 +2063,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Jackwell</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<LineString>
 					<coordinates>
 						75.718037782838,12.956380959959,0 75.71798845622401,12.956366496076,0 75.71800365212,12.956317798752,0 75.718052978757,12.95633226253,0 75.718037956621,12.956381542503,0 
@@ -2070,7 +2072,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Boundary line</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<MultiGeometry>
 					<LineString>
 						<coordinates>
@@ -2089,7 +2091,7 @@
 			<name>Kooginakoolu</name>
 			<Placemark>
 				<name>Tank [3:LinearRing]</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<LinearRing>
 					<coordinates>
 						75.71721257922,12.955281200791,0 75.71720837613201,12.955271192177,0 75.71720331369799,12.955252432455,0 75.717191198327,12.955224034141,0 75.717176386608,12.955198739789,0 75.717155173612,12.955170276547,0 75.717093435008,12.95510899289,0 75.717035334949,12.955055127351,0 75.716968634305,12.954988005295,0 75.71693686045199,12.954961968143,0 75.716898068041,12.954944901126,0 75.716860912014,12.954932170573,0 75.71685398115299,12.954930515911,0 75.716818551711,12.95492626426,0 75.71675044846199,12.954927379857,0 75.716694857852,12.95492250419,0 75.716584941899,12.954928642308,0 75.716543964023,12.954936248385,0 75.716527041864,12.954943982122,0 75.716504833714,12.954987604856,0 75.71649421918799,12.955059377309,0 75.716476457954,12.955176893293,0 75.716461288755,12.955266982498,0 75.716481706512,12.955284080302,0 75.71648196499,12.955304396154,0 75.716467134339,12.955324358792,0 75.71643486788599,12.95538480525,0 75.716433827335,12.955441373759,0 75.716438927623,12.955461746887,0 75.71645609584201,12.955473082431,0 75.71651894235301,12.955487846656,0 75.716593251137,12.9554998249,0 75.716647768535,12.955511229698,0 75.71669031105,12.955517915476,0 75.716731840628,12.955522205523,0 75.716781241756,12.955529014146,0 75.71684324773599,12.95553765384,0 75.71688968967401,12.955543068994,0 75.71693621684,12.95554783799,0 75.71700268049101,12.955556316155,0 75.717044635172,12.955560301019,0 75.717123356839,12.955562132665,0 75.717150504862,12.955560141551,0 75.717176038803,12.955555426125,0 75.7172056265,12.955541509908,0 75.717246132048,12.95551564214,0 75.71722784095201,12.955458123292,0 75.717217888649,12.955422812612,0 75.71722157651899,12.955388912208,0 75.71722231824801,12.955343537473,0 75.717216830429,12.955306712466,0 75.71721257922,12.955281200791,0 
@@ -2098,7 +2100,7 @@
 			</Placemark>
 			<Placemark>
 				<name>tank bund [7:LinearRing]</name>
-				<styleUrl>#s272</styleUrl>
+				<styleUrl>#s2720</styleUrl>
 				<LinearRing>
 					<coordinates>
 						75.71647353205,12.954946442414,0 75.71646658788499,12.954975956851,0 75.716461639945,12.955061642718,0 75.716461702269,12.955117105914,0 75.716448460292,12.955167412987,0 75.716420019604,12.955297302742,0 75.716403431076,12.955370143,0 75.71638199255,12.955505137946,0 75.71642843593401,12.955516361187,0 75.716484015492,12.95552888724,0 75.71654968966899,12.955547053022,0 75.71658933256199,12.955552489727,0 75.716625172066,12.955557223183,0 75.716638616601,12.955556257321,0 75.716688238053,12.955562491053,0 75.716732403232,12.955566150281,0 75.716836756232,12.955574444064,0 75.716926969824,12.955585849301,0 75.716956408817,12.955589329912,0 75.71700059046999,12.955595111865,0 75.71704777907701,12.955601506265,0 75.717084238312,12.955603736579,0 75.71711893972,12.955606712047,0 75.71729040528101,12.95561059293,0 75.717306736399,12.955578292962,0 75.717289464545,12.955526176552,0 75.71728900097,12.955473042833,0 75.717275127126,12.955442435683,0 75.717262946267,12.955386664896,0 75.717253579025,12.955329225391,0 75.71726800424101,12.955225564244,0 75.717259337233,12.955199251149,0 75.717208049108,12.955166747225,0 75.71716744771599,12.95513317085,0 75.71712047417,12.955091324996,0 75.717059220153,12.955029280953,0 75.716997111387,12.954971808077,0 75.71692341428,12.954899744542,0 75.71689707478799,12.954880305259,0 75.716871800917,12.954863609009,0 75.716839315651,12.954851192962,0 75.71681404628301,12.954848842579,0 75.716788257464,12.954851502267,0 75.716738806238,12.954863296347,0 75.716697626871,12.954870326665,0 75.716633291495,12.954881037921,0 75.716577824597,12.95488688664,0 75.716523219625,12.954904703355,0 75.71648448847,12.954928055888,0 75.71647353205,12.954946442414,0 
